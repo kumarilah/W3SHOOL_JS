@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="demo"></div>
+    <script>
+        const myInfo = {
+            firstName: "Williams",
+            lastname: "Makinde",
+            age: "22",
+            cars: {
+                myCar1: "BENZ",
+                myCar2: "BMW",
+                myCar3: "Range Rover",
+                myCar4: "Ferrari",
+                myCar5: "Lamborghini"
+            }
+        };
+        document.getElementById("demo").innerHTML = "My name is " + myInfo.firstName + " " + myInfo.lastname + " " +
+            "my most favorite car type is " + myInfo.cars.myCar1 + " " + "and i am " + myInfo.age + " " + "years old";
+    </script>
+</body>
+
+</html>
