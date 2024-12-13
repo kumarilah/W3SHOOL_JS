@@ -10,20 +10,8 @@
 <body>
     <div id="demo"></div>
     <script>
-        const myInfo = {
-            firstName: "Williams",
-            lastname: "Makinde",
-            age: "22",
-            cars: {
-                myCar1: "BENZ",
-                myCar2: "BMW",
-                myCar3: "Range Rover",
-                myCar4: "Ferrari",
-                myCar5: "Lamborghini"
-            }
-        };
-        document.getElementById("demo").innerHTML = "My name is " + myInfo.firstName + " " + myInfo.lastname + " " +
-            "my most favorite car type is " + myInfo.cars.myCar1 + " " + "and i am " + myInfo.age + " " + "years old";
+        let x = 12345;
+        document.getElementById("demo").innerHTML = x.toString() + "<br>" + (12345).toString() + "<br>" + ("123" + "45").toString();
     </script>
 </body>
 
